@@ -1,0 +1,9 @@
+<div class = "well">
+    <%= form_tag('/update', method: :post, multipart: true) do %>
+    <%= label_tag :people %>
+    <%= file_field_tag 'people' %>
+    <%= label_tag :building %>
+    <%= file_field_tag 'building' %>
+          <%= submit_tag "Save", class: "btn btn-primary" %>
+   <% end %>
+</div>
