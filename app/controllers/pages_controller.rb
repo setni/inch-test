@@ -2,7 +2,6 @@ require 'csv_hasher'
 
 class PagesController < ApplicationController
     def home
-        @new_page_path = '/new'
     end
     
     def update
